@@ -1,0 +1,25 @@
+@import url(bootstrap.min.css);
+
+.table-row {
+		color: #fff;
+		background-color:#5a7;
+		}
+/* p {color :#f55; font-zier: 24px;} */
+			
+#special {color:#aff;}
+		
+#welcome {background-image: url("../Images/City.jpg");
+		 background-repeat: no-repeat;
+		 background-size : cover;
+		}
+
+.jumbotron {
+		text-align: center;
+		margin-top: 12%;
+		background-color: rgba(255,255,255,0);
+		}
+
+.full-height {heigh= 100%;}
+
+
+table {display: none;}
