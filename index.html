@@ -1,4 +1,4 @@
-<!DOCTYPE Html>
+﻿<!DOCTYPE Html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -6,37 +6,58 @@
 		<link rel="stylesheet" href="styles/style.css">
 	</head>
 	
-	<body id="welcome">
-		<section class="full-height" >
-			<ul>
-				<li><a href="http://www.google.com">Google</a></li>
-				<li>Item 2</li>
-				<li>Item 3</li>
+	<body>
+		<section class="full-height" id=welcome>	
+			<ul class="nav nav-justified" id="nav-main">
+				<li><i class="fa fa-paw fa-3x"></i></li>
+				<li class="active"><a href="/index.html">home</a></li>
+				<li><a href="/about.html">about</a></li>
+				<li><a href="/blog.html">blog</a></li>
+				<li><a href="mailto:drew@codecore.ca">contact</a></li>
 			</ul>
-			<div class ="jumbotron">
-				<h1>Welcome to my site!</h1>
+			<div class="jumbotron">
+				<h1>Welcome to My Super Site!</h1>
 				<p>Enter your email to enter a contest</p>
-				<form>
-					<div class = "input-group col-md-4 col-md-offset-4">
-					<input class="form-control" type="email" name="email" placeholder="Submit your email">
-					<span class "input-group-btn">
-					<input class="btn btn-default" type="submit">
-					</span>
-					</div>
-				</form>
+					<form>
+					 <div class="input-group col-md-4 col-md-offset-4">
+						<input class="form-control" type="email" name="_replyto" placeholder="Submit your email and win!">
+						<span class= "input-group-btn">
+							<input class="btn btn-default" type="submit">
+						</span>
+					 </div>
+					</form> 
 			</div>
+				<!	<form action="http://forms.brace.io/drew@drewbro.com" method="post">
+			
 		</section>
 		
 		<section class="full-height">
+			 <div class="jumbotron text-center content-jumbo">
+				<div class="section-title">
+					<h2>Super Awesome Services</h2>
+				</div>
+				<div class="row">
+					<div class="service-box col-md-4">
+						<p>Send mail! Not in envelopes, but this icon does look like an envelope.</p>
+					</div>
+					<div class="service-box col-md-4">
+						<p>All your documents in a convenient and fashionable directory of folders</p>
+					</div>
+					<div class="service-box col-md-4">
+						<p>Paper is for airplanes. Email is for mail. Start using it today.</p>
+					</div>
+				</div>
+			</div>
+			
 			<div class= "table-responsive">	
-				<table class="table table-bordered table-striped">
+				<table class="table table-bordered table-striped" id="services-table">
 					<tr>
 						<th>Account Type</th>
 						<th>Free</th>
 						<th>Starter</th>
 						<th>Pro</th>
 					</tr>
-					<tr style="color: white; background-color: #808080;">
+					<tr>
 						<td>Email</td>
 						<td>1000/Month</td>
 						<td>10000/Month</td>
